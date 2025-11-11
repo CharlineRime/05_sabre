@@ -1,14 +1,29 @@
-// .third-section img {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-// }
-// .third-section-background {
-//   z-index: 1;
-// }
-// .third-section-second-img {
-//   z-index: 2;
-// }
-// .third-section-front-img {
-//   z-index: 3;
-// }
+.second-section {
+  height: 120vh;
+  margin-top: 30vh;
+}
+.second-section-first-img {
+  height: 40vh;
+  margin-left: -20vw;
+  margin-bottom: -30vh;
+}
+
+.second-section-second-img {
+  height: 60vh;
+  margin-left: -20vw;
+  margin-bottom: -30vh;
+}
+
+.second-section-text {
+  width: 35vw;
+  text-align: center;
+  margin: auto;
+  opacity: 0;
+}
+.second-section-wrapper .second-section-wrapper ~ .second-section-wrapper {
+  justify-content: end;
+}
+
+.second-section-wrapper {
+  display: flex;
+}

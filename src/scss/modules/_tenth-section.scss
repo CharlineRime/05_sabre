@@ -1,14 +1,23 @@
-// .third-section img {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-// }
-// .third-section-background {
-//   z-index: 1;
-// }
-// .third-section-second-img {
-//   z-index: 2;
-// }
-// .third-section-front-img {
-//   z-index: 3;
-// }
+.tenth-section {
+  padding-top: 190px;
+  padding-bottom: 430px;
+  background-color: var(--color-black);
+}
+.tenth-section-first-img {
+  height: 30vh;
+}
+
+.tenth-section-first-text {
+  color: var(--color-white);
+  width: 60vw;
+  text-align: center;
+  margin: auto;
+}
+.tenth-section-second-text {
+  color: var(--color-white);
+  text-align: center;
+  margin: auto;
+}
+.tenth-section-img {
+  display: flex;
+}

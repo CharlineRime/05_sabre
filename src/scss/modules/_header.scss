@@ -1,1 +1,10 @@
-
+.header-positioning {
+  margin-left: 75px;
+  display: flex;
+  gap: 40px;
+  position: sticky;
+  top: 30;
+  display: flex;
+  justify-content: flex-start;
+  z-index: 1000;
+}
