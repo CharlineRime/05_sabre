@@ -1,6 +1,7 @@
 .sixth-section {
   height: 120vh;
   background-color: var(--color-black);
+  overflow: hidden;
 }
 
 .sixth-section-text {
@@ -13,10 +14,7 @@
   opacity: 0;
 }
 .sixth-section-first-img {
-  height: 40vh;
-  margin-left: -30vw;
-}
-
-.sixth-section-wrapper ~ .sixth-section-wrapper {
-  justify-content: end;
+  height: 35vh;
+  position: relative;
+  left: -30%;
 }
