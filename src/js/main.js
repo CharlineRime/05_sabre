@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.to("h1", {
   opacity: 1,
-  y: -300,
+  y: -400,
   scrollTrigger: {
     trigger: ".first-section-h",
     scrub: true,
@@ -51,12 +51,30 @@ timeline2.to("#object-text", {
   opacity: 1,
   y: "25%",
 });
-timeline2.to("#object-left-1", {
-  opacity: 1,
-  x: "-170%",
-});
-
 timeline2.to("#object-left-2", {
   opacity: 1,
-  x: "-100%",
+  x: "150%",
+});
+timeline2.to("#object-left-1", {
+  opacity: 1,
+  x: "170%",
+});
+
+// Wrap 3
+const timeline3 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".sixth-section",
+    scrub: true,
+    pin: true,
+  },
+});
+
+timeline3.to("#sixth-section-text", {
+  opacity: 1,
+  y: "25%",
+});
+
+timeline3.to("#sixth-section-left-1", {
+  opacity: 1,
+  x: "170%",
 });
