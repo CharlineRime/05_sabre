@@ -20,10 +20,6 @@
   margin: auto;
   opacity: 0;
 }
-.second-section-wrapper .second-section-wrapper ~ .second-section-wrapper {
+.second-section-wrapper ~ .second-section-wrapper {
   justify-content: end;
-}
-
-.second-section-wrapper {
-  display: flex;
 }
