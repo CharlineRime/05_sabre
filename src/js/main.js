@@ -30,12 +30,12 @@ timeline1.to("#second-section-text", {
 });
 timeline1.to("#second-section-left-1", {
   opacity: 1,
-  x: "300%",
+  x: "500%",
 });
 
 timeline1.to("#second-section-left-2", {
   opacity: 1,
-  x: "250%",
+  x: "200%",
 });
 
 // Wrap 2

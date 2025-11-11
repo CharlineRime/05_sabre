@@ -1,16 +1,21 @@
 .second-section {
   height: 120vh;
-  margin-top: 30vh;
+
+  overflow: hidden;
 }
 .second-section-first-img {
   height: 40vh;
-  margin-left: -20vw;
+  position: relative;
+  left: -60%;
+  bottom: -5%;
 }
 
 .second-section-second-img {
   height: 60vh;
-  margin-left: -20vw;
-  margin-bottom: -25vh;
+  position: relative;
+  left: -20%;
+  bottom: -30%;
+  margin-top: -210px;
 }
 
 .second-section-text {
@@ -18,7 +23,6 @@
   text-align: center;
   margin: auto;
   opacity: 0;
-  margin-bottom: 40px;
 }
 .second-section-wrapper ~ .second-section-wrapper {
   justify-content: end;
