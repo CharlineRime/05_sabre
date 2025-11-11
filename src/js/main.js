@@ -53,11 +53,11 @@ timeline2.to("#object-text", {
 });
 timeline2.to("#object-left-2", {
   opacity: 1,
-  x: "150%",
+  x: "-120%",
 });
 timeline2.to("#object-left-1", {
   opacity: 1,
-  x: "170%",
+  x: "-120%",
 });
 
 // Wrap 3
@@ -76,5 +76,5 @@ timeline3.to("#sixth-section-text", {
 
 timeline3.to("#sixth-section-left-1", {
   opacity: 1,
-  x: "170%",
+  x: "200%",
 });

@@ -1,12 +1,6 @@
 .sixth-section {
   height: 120vh;
-
   background-color: var(--color-black);
-}
-.sixth-section-first-img {
-  height: 40vh;
-
-  margin-left: -30vw;
 }
 
 .sixth-section-text {
@@ -15,8 +9,14 @@
   text-align: center;
   margin: auto;
   margin-top: 30vh;
+  margin-bottom: 40px;
   opacity: 0;
 }
+.sixth-section-first-img {
+  height: 40vh;
+  margin-left: -30vw;
+}
+
 .sixth-section-wrapper ~ .sixth-section-wrapper {
   justify-content: end;
 }

@@ -1,18 +1,22 @@
 .fourth-section {
   height: 120vh;
   margin-top: 30vh;
+  overflow: hidden;
 }
 .fourth-section-first-img {
   height: 40vh;
-  margin-top: 20vh;
-  margin-left: -20vw;
-  margin-bottom: -30vh;
+  position: relative;
+  right: -100%;
+  bottom: -30%;
+  z-index: 1;
 }
 
 .fourth-section-second-img {
   height: 30vh;
-  margin-left: -75vw;
-  margin-top: 10vh;
+  position: relative;
+  right: -100%;
+  bottom: -10%;
+  z-index: 0;
 }
 
 .fourth-section-text {
@@ -20,8 +24,4 @@
   text-align: center;
   margin: auto;
   opacity: 0;
-}
-
-.fourth-section-wrapper ~ .fourth-section-wrapper {
-  justify-content: end;
 }
