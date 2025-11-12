@@ -131,6 +131,7 @@ container.addEventListener("click", () => {
   fluffy.classList.toggle("twelveth-section-visible");
 });
 
+// parallax 1
 gsap
   .timeline({
     scrollTrigger: {
@@ -154,6 +155,27 @@ gsap
     "#element-2",
     {
       x: 100,
+    },
+    0
+  );
+
+// parallax 3
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".parallax-container",
+      start: "top top",
+      scrub: 2,
+      pin: true,
+    },
+  })
+  .to("#element-9", {
+    x: -400,
+  })
+  .to(
+    "#element-10",
+    {
+      x: 400,
     },
     0
   );

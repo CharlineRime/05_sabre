@@ -1,0 +1,21 @@
+.seventh-section {
+  overflow: hidden;
+  position: relative;
+  height: 200vh;
+}
+
+#element-9 {
+  width: 120vw;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
+#element-10 {
+  width: 120vw;
+  position: absolute;
+  top: 400;
+  left: -350;
+  right: 0;
+  z-index: 1;
+}
