@@ -21,6 +21,7 @@ const timeline1 = gsap.timeline({
     trigger: ".second-section",
     scrub: true,
     pin: true,
+    end: "+=200%bottom",
   },
 });
 
@@ -44,6 +45,7 @@ const timeline2 = gsap.timeline({
     trigger: ".fourth-section",
     scrub: true,
     pin: true,
+    end: "+=200%bottom",
   },
 });
 
@@ -66,6 +68,7 @@ const timeline3 = gsap.timeline({
     trigger: ".sixth-section",
     scrub: true,
     pin: true,
+    end: "+=200%bottom",
   },
 });
 
@@ -85,7 +88,7 @@ const timeline4 = gsap.timeline({
     trigger: ".eigth-section",
     scrub: true,
     pin: true,
-    end: "+=1000%bottom",
+    end: "+=200%bottom",
   },
 });
 
@@ -109,6 +112,7 @@ const timeline5 = gsap.timeline({
     trigger: ".tenth-section",
     scrub: true,
     pin: true,
+    end: "+=200%bottom",
   },
 });
 
