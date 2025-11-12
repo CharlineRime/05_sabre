@@ -1,0 +1,51 @@
+.twelveth-section {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+.twelveth-section-first-card {
+  display: flex;
+  justify-content: center;
+}
+.twelveth-section-book-cover {
+  height: 55vh;
+  margin-bottom: 284px;
+}
+.twelveth-section-description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 35vw;
+}
+.twelveth-section-buttons {
+  margin-top: 36px;
+}
+
+.twelveth-section-easter-egg-fluffy {
+  display: none;
+  position: relative;
+  height: 20vh;
+  right: -150%;
+  margin-top: -170px;
+  margin-bottom: 58px;
+}
+.twelveth-section-easter-egg-wet {
+  height: 20vh;
+  position: relative;
+  right: -150%;
+  margin-top: -170px;
+  margin-bottom: 58px;
+}
+
+.twelveth-section-arrow {
+  height: 5vh;
+  margin: auto;
+}
+.twelveth-section-link-top {
+  background: none;
+  border: none;
+}
