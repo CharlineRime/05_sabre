@@ -233,3 +233,53 @@ gsap
   .to("#element-11", {
     x: -200,
   });
+
+// parallax 5
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".eleventh-section",
+      start: "top top",
+      scrub: 2,
+      pin: true,
+    },
+  })
+  .to("#element-13", {
+    scale: 1.5,
+    opacity: 0,
+    ease: "power2.out",
+  })
+  .to(
+    "#element-12",
+    {
+      y: -100,
+    },
+    0
+  )
+
+  .to(
+    "#element-14",
+    {
+      opacity: 1,
+      delay: 0.3,
+    },
+    0
+  )
+
+  .to(
+    "#element-15",
+    {
+      opacity: 1,
+      delay: 0.6,
+    },
+    0
+  )
+  .to(
+    "#element-12",
+    {
+      filter: "brightness(0.3) saturate(1.3) hue-rotate(-10deg)",
+      ease: "power2.out",
+      delay: 0.3,
+    },
+    0
+  );

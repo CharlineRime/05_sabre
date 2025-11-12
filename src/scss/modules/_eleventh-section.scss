@@ -1,0 +1,42 @@
+.eleventh-section {
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+}
+
+#element-12 {
+  width: 120vw;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
+#element-13 {
+  width: 105vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform-origin: center;
+  z-index: 2;
+}
+
+#element-14 {
+  width: 63vw;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  right: 100;
+  z-index: 1;
+}
+
+#element-15 {
+  width: 27vw;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
