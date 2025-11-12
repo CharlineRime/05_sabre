@@ -8,7 +8,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 gsap.to("h1", {
   opacity: 1,
-  y: -400,
+  y: -300,
   scrollTrigger: {
     trigger: ".first-section-h",
     scrub: true,
