@@ -85,6 +85,7 @@ const timeline4 = gsap.timeline({
     trigger: ".eigth-section",
     scrub: true,
     pin: true,
+    end: "+=1000%bottom",
   },
 });
 
@@ -163,10 +164,9 @@ gsap
 gsap
   .timeline({
     scrollTrigger: {
-      trigger: ".parallax-container",
+      trigger: ".seventh-section",
       start: "top top",
       scrub: 2,
-      pin: true,
     },
   })
   .to("#element-9", {

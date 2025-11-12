@@ -24,21 +24,28 @@
 .twelveth-section-buttons {
   margin-top: 36px;
 }
-
+.twelveth-section-easter-egg {
+  position: relative;
+  height: 22vh;
+  width: 22vh;
+  margin-bottom: 58px;
+}
 .twelveth-section-easter-egg-fluffy {
   display: none;
-  position: relative;
-  height: 20vh;
-  right: -250%;
-  margin-top: -170px;
-  margin-bottom: 58px;
+  position: absolute;
+  height: 22vh;
+  right: -600;
+  top: -150;
 }
 .twelveth-section-easter-egg-wet {
   height: 20vh;
-  position: relative;
-  right: -250%;
-  top: -170px;
-  margin-bottom: 58px;
+  display: none;
+  position: absolute;
+  right: -600;
+  top: -153;
+}
+.twelveth-section-visible {
+  display: block;
 }
 
 .twelveth-section-arrow {
