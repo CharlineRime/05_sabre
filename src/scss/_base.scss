@@ -7,7 +7,9 @@ html {
   font-family: raleway;
   font-weight: 400;
 }
-
+body {
+  cursor: none;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -61,4 +63,17 @@ h3 {
 p {
   font-weight: 400;
   font-size: 20px;
+}
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #ffdc57;
+  z-index: 9999;
+  mix-blend-mode: difference;
 }
