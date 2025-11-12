@@ -119,3 +119,14 @@ timeline5.to("#tenth-section", {
   opacity: 1,
   x: "125%",
 });
+
+// easter egg
+
+const container = document.querySelector(".twelveth-section-easter-egg");
+const wet = document.querySelector(".twelveth-section-easter-egg-wet");
+const fluffy = document.querySelector(".twelveth-section-easter-egg-fluffy");
+
+container.addEventListener("click", () => {
+  wet.classList.toggle("twelveth-section-visible");
+  fluffy.classList.toggle("twelveth-section-visible");
+});
