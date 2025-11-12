@@ -30,12 +30,19 @@
   width: 22vh;
   margin-bottom: 58px;
 }
+.twelveth-section-easter-egg-fluffy:hover {
+  transform: scale(1.2);
+}
 .twelveth-section-easter-egg-fluffy {
   display: none;
   position: absolute;
   height: 22vh;
   right: -600;
   top: -150;
+  transition: transform 0.5s ease;
+}
+.twelveth-section-easter-egg-wet:hover {
+  transform: scale(1.2);
 }
 .twelveth-section-easter-egg-wet {
   height: 20vh;
@@ -43,6 +50,7 @@
   position: absolute;
   right: -600;
   top: -153;
+  transition: transform 0.5s ease;
 }
 .twelveth-section-visible {
   display: block;
