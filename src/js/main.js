@@ -164,6 +164,49 @@ gsap
     0
   );
 
+// parallax 2
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".fifth-section",
+      start: "top top",
+      scrub: 2,
+    },
+  })
+  .to("#element-4", {
+    x: -200,
+  })
+  .to(
+    "#element-5",
+    {
+      y: -200,
+    },
+    0
+  )
+  .to(
+    "#element-6",
+    {
+      y: -300,
+    },
+    0
+  )
+  // .to(
+  //   "#element-7",
+  //   {
+  //     x: -200,
+  //   },
+  //   0
+  // )
+
+  .to(
+    "#element-8",
+    {
+      y: -300,
+      x: 200,
+    },
+    0
+  );
+
 // parallax 3
 gsap
   .timeline({
@@ -174,12 +217,25 @@ gsap
     },
   })
   .to("#element-9", {
-    x: -300,
+    x: -200,
   })
   .to(
     "#element-10",
     {
-      x: 300,
+      x: 200,
     },
     0
   );
+
+// parallax 4
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".nineth-section",
+      start: "top top",
+      scrub: 2,
+    },
+  })
+  .to("#element-11", {
+    x: -200,
+  });
