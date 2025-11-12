@@ -1,6 +1,8 @@
 .fifth-section {
   position: relative;
   height: 300vh;
+  background-color: var(--color-black);
+  overflow: hidden;
 }
 
 #element-4 {
@@ -36,10 +38,10 @@
   z-index: 3;
 }
 #element-8 {
-  width: 120vw;
+  width: 130vw;
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: -120;
   right: 0;
   z-index: 4;
 }
