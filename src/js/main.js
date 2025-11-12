@@ -130,3 +130,30 @@ container.addEventListener("click", () => {
   wet.classList.toggle("twelveth-section-visible");
   fluffy.classList.toggle("twelveth-section-visible");
 });
+
+gsap
+  .timeline({
+    scrollTrigger: {
+      trigger: ".parallax-container",
+      start: "top top",
+      scrub: 2,
+      pin: true,
+    },
+  })
+  .to("#element-3", {
+    x: -100,
+  })
+  .to(
+    "#element-1",
+    {
+      x: -300,
+    },
+    0
+  )
+  .to(
+    "#element-2",
+    {
+      x: 100,
+    },
+    0
+  );

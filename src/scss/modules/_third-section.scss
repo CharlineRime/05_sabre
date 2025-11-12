@@ -1,18 +1,50 @@
-// .third-section img {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-// }
-// .third-section-background {
-//   z-index: 1;
-// }
-// .third-section-second-img {
-//   z-index: 2;
-// }
-// .third-section-front-img {
-//   z-index: 3;
-// }
-
 .third-section {
   overflow: hidden;
+  position: relative;
+  height: 200vh;
 }
+
+#element-1 {
+  width: 120vw;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
+#element-2 {
+  width: 110vw;
+  position: absolute;
+  top: 20;
+  left: -50;
+  right: 0;
+  z-index: 1;
+}
+
+#element-3 {
+  width: 110vw;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+// #element-1 {
+//   width: 100vw;
+//   position: relative;
+//   z-index: 0;
+// }
+// #element-2 {
+//   width: 100vw;
+//   position: relative;
+//   z-index: 1;
+//   top: -200vh;
+// }
+
+// #element-3 {
+//   width: 100vw;
+//   position: relative;
+//   z-index: 2;
+//   top: -414vh;
+// }
