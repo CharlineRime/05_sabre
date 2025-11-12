@@ -1,23 +1,26 @@
 .tenth-section {
-  padding-top: 190px;
-  padding-bottom: 430px;
+  height: 120vh;
+  overflow: hidden;
   background-color: var(--color-black);
 }
 .tenth-section-first-img {
   height: 30vh;
+  position: relative;
+  left: -75%;
+  bottom: -5%;
 }
 
-.tenth-section-first-text {
+.tenth-section-text {
   color: var(--color-white);
-  width: 60vw;
+  width: 36vw;
   text-align: center;
   margin: auto;
+  opacity: 0;
 }
-.tenth-section-second-text {
-  color: var(--color-white);
-  text-align: center;
-  margin: auto;
-}
-.tenth-section-img {
+
+.tenth-section-spacing {
   display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin-top: 250px;
 }
