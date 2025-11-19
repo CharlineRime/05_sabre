@@ -8,3 +8,16 @@
   justify-content: flex-start;
   z-index: 1000;
 }
+
+.header-link-trailer {
+  font-size: 20px;
+  background-color: var(--color-white-60);
+  color: var(--color-black-30);
+  padding: 10px 20px;
+  border-radius: 60px;
+  border: 1px solid var(--color-black-30);
+  transition: transform 0.5s ease;
+}
+.header-link-trailer:hover {
+  transform: scale(1.2);
+}

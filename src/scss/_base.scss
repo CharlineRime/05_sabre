@@ -31,19 +31,6 @@ a:hover {
   transform: scale(1.2);
 }
 
-button {
-  font-size: 20px;
-  background-color: var(--color-white-60);
-  color: var(--color-black-30);
-  padding: 10px 20px;
-  border-radius: 60px;
-  border: 1px solid var(--color-black-30);
-  transition: transform 0.5s ease;
-}
-button:hover {
-  transform: scale(1.2);
-}
-
 img,
 video {
   display: block;
